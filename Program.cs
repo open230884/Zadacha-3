@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// начинаем пистаь на основе ранее написанных программ
+
+Console.WriteLine("Введите число, с которым мы будем работать:");
+
+int n = int.Parse(Console.ReadLine());
+
+Console.WriteLine();
+
+Console.WriteLine("Диапазон состоит из чисел:");
+
+for ( int i = -n; i <= n; i++)
+{
+    
+    Console.WriteLine(i);
+}
